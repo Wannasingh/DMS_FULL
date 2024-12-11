@@ -1,0 +1,2 @@
+src/assets/fonts/Sarabun_Regular.js
+ if (_typeface_js && _typeface_js.loadFace) _typeface_js.loadFace({...});
