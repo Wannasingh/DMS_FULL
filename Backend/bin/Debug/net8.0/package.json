@@ -1,0 +1,21 @@
+{
+  "name": "backendapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"**/*.{cs,cshtml,css,js,json}\"",
+    "css:build": "tailwindcss -i ./wwwroot/css/site.css -o ./wwwroot/css/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "prettier": "^3.5.1",
+    "prettier-plugin-csharp": "^0.6.0-development",
+    "tailwindcss": "^3.4.1"
+  },
+  "description": ""
+}

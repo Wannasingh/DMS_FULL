@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/wwwroot/css/styles.css",
+      "PackagePath": "staticwebassets/css/styles.css"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.BackendApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.BackendApi.props",
+      "PackagePath": "build\\BackendApi.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.BackendApi.props",
+      "PackagePath": "buildMultiTargeting\\BackendApi.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.BackendApi.props",
+      "PackagePath": "buildTransitive\\BackendApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

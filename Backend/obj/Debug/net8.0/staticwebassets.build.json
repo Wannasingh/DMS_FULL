@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "MDahxhBlFKtd95mx6KCiy/yOPv6YWt6vhZQJQbdke04=",
+  "Source": "BackendApi",
+  "BasePath": "_content/BackendApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BackendApi/wwwroot",
+      "Source": "BackendApi",
+      "ContentRoot": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/wwwroot/",
+      "BasePath": "_content/BackendApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/wwwroot/css/site.css",
+      "SourceId": "BackendApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/wwwroot/",
+      "BasePath": "_content/BackendApi",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/wwwroot/css/styles.css",
+      "SourceId": "BackendApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/wwwroot/",
+      "BasePath": "_content/BackendApi",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
+    }
+  ]
+}

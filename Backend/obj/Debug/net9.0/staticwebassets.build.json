@@ -1,0 +1,702 @@
+{
+  "Version": 1,
+  "Hash": "6RuDRTEQ1hc6z+RuTJP33WYoGzI2OjCIbuzUc+gMxyQ=",
+  "Source": "BackendApi",
+  "BasePath": "_content/BackendApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BackendApi/wwwroot",
+      "Source": "BackendApi",
+      "ContentRoot": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/wwwroot/",
+      "BasePath": "_content/BackendApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/obj/Debug/net9.0/compressed/ig097997fa-cfs0wbahkk.gz",
+      "SourceId": "BackendApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/BackendApi",
+      "RelativePath": "css/site#[.{fingerprint=cfs0wbahkk}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/wwwroot/css/site.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "d1wqbhfaoe",
+      "Integrity": "sWPycZx7sGtN3TmP/cSN7YgzEcZWB2A6a4RftwfMUhI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/obj/Debug/net9.0/compressed/kk42hs70ru-i6qsmz5m6f.gz",
+      "SourceId": "BackendApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/BackendApi",
+      "RelativePath": "css/styles#[.{fingerprint=i6qsmz5m6f}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/wwwroot/css/styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5e09rdix1v",
+      "Integrity": "w+YYU0WFImCGPE+KNBKRMCzAN4Pee50iw3ml7bVUQ6I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/wwwroot/css/styles.css"
+    },
+    {
+      "Identity": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/wwwroot/css/site.css",
+      "SourceId": "BackendApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/wwwroot/",
+      "BasePath": "_content/BackendApi",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cfs0wbahkk",
+      "Integrity": "GGQZxH5G0WiJdP5tHUaI1yNPF5AROgwekzUmtSLJoEw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/wwwroot/css/styles.css",
+      "SourceId": "BackendApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/wwwroot/",
+      "BasePath": "_content/BackendApi",
+      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i6qsmz5m6f",
+      "Integrity": "ioUTINjo6+MlNbf0fgBTRLuGLiGgrI6JFUI9hlNMF0o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.cfs0wbahkk.css",
+      "AssetFile": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/obj/Debug/net9.0/compressed/ig097997fa-cfs0wbahkk.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.016393442623"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sWPycZx7sGtN3TmP/cSN7YgzEcZWB2A6a4RftwfMUhI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 02:59:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GGQZxH5G0WiJdP5tHUaI1yNPF5AROgwekzUmtSLJoEw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cfs0wbahkk"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GGQZxH5G0WiJdP5tHUaI1yNPF5AROgwekzUmtSLJoEw="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.cfs0wbahkk.css",
+      "AssetFile": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/wwwroot/css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GGQZxH5G0WiJdP5tHUaI1yNPF5AROgwekzUmtSLJoEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 02:59:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cfs0wbahkk"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GGQZxH5G0WiJdP5tHUaI1yNPF5AROgwekzUmtSLJoEw="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.cfs0wbahkk.css.gz",
+      "AssetFile": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/obj/Debug/net9.0/compressed/ig097997fa-cfs0wbahkk.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sWPycZx7sGtN3TmP/cSN7YgzEcZWB2A6a4RftwfMUhI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 02:59:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cfs0wbahkk"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sWPycZx7sGtN3TmP/cSN7YgzEcZWB2A6a4RftwfMUhI="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/obj/Debug/net9.0/compressed/ig097997fa-cfs0wbahkk.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.016393442623"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sWPycZx7sGtN3TmP/cSN7YgzEcZWB2A6a4RftwfMUhI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 02:59:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GGQZxH5G0WiJdP5tHUaI1yNPF5AROgwekzUmtSLJoEw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GGQZxH5G0WiJdP5tHUaI1yNPF5AROgwekzUmtSLJoEw="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/wwwroot/css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GGQZxH5G0WiJdP5tHUaI1yNPF5AROgwekzUmtSLJoEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 02:59:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GGQZxH5G0WiJdP5tHUaI1yNPF5AROgwekzUmtSLJoEw="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/obj/Debug/net9.0/compressed/ig097997fa-cfs0wbahkk.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sWPycZx7sGtN3TmP/cSN7YgzEcZWB2A6a4RftwfMUhI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 02:59:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sWPycZx7sGtN3TmP/cSN7YgzEcZWB2A6a4RftwfMUhI="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/obj/Debug/net9.0/compressed/kk42hs70ru-i6qsmz5m6f.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000197902236"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5052"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w+YYU0WFImCGPE+KNBKRMCzAN4Pee50iw3ml7bVUQ6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 04:00:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ioUTINjo6+MlNbf0fgBTRLuGLiGgrI6JFUI9hlNMF0o=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ioUTINjo6+MlNbf0fgBTRLuGLiGgrI6JFUI9hlNMF0o="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/wwwroot/css/styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22462"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ioUTINjo6+MlNbf0fgBTRLuGLiGgrI6JFUI9hlNMF0o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 04:00:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ioUTINjo6+MlNbf0fgBTRLuGLiGgrI6JFUI9hlNMF0o="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css.gz",
+      "AssetFile": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/obj/Debug/net9.0/compressed/kk42hs70ru-i6qsmz5m6f.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5052"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w+YYU0WFImCGPE+KNBKRMCzAN4Pee50iw3ml7bVUQ6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 04:00:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w+YYU0WFImCGPE+KNBKRMCzAN4Pee50iw3ml7bVUQ6I="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.i6qsmz5m6f.css",
+      "AssetFile": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/obj/Debug/net9.0/compressed/kk42hs70ru-i6qsmz5m6f.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000197902236"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5052"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w+YYU0WFImCGPE+KNBKRMCzAN4Pee50iw3ml7bVUQ6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 04:00:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ioUTINjo6+MlNbf0fgBTRLuGLiGgrI6JFUI9hlNMF0o=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i6qsmz5m6f"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ioUTINjo6+MlNbf0fgBTRLuGLiGgrI6JFUI9hlNMF0o="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.i6qsmz5m6f.css",
+      "AssetFile": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/wwwroot/css/styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22462"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ioUTINjo6+MlNbf0fgBTRLuGLiGgrI6JFUI9hlNMF0o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 04:00:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i6qsmz5m6f"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ioUTINjo6+MlNbf0fgBTRLuGLiGgrI6JFUI9hlNMF0o="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.i6qsmz5m6f.css.gz",
+      "AssetFile": "/Users/wannasingh/Desktop/DOTNET/DMS/Backend/obj/Debug/net9.0/compressed/kk42hs70ru-i6qsmz5m6f.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5052"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w+YYU0WFImCGPE+KNBKRMCzAN4Pee50iw3ml7bVUQ6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 04:00:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i6qsmz5m6f"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w+YYU0WFImCGPE+KNBKRMCzAN4Pee50iw3ml7bVUQ6I="
+        }
+      ]
+    }
+  ]
+}

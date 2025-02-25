@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-50">
+    <div class="min-h-screen flex">
+        <!-- Sidebar -->
+        <aside class="bg-[#1e293b] text-white w-64 min-h-screen px-4 py-5 hidden md:block">
+            <div class="mb-8">
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-graduation-cap text-2xl"></i>
+                    <span class="text-xl font-bold">กยศ</span>
+                </div>
+            </div>
+            <nav class="space-y-2">
+                <a href="/" class="flex items-center gap-2 px-4 py-3 rounded-lg hover:bg-[#2d3b4f] transition-all">
+                    <i class="fas fa-home"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a asp-controller="Students" asp-action="Index" class="flex items-center gap-2 px-4 py-3 rounded-lg hover:bg-[#2d3b4f] transition-all">
+                    <i class="fas fa-users"></i>
+                    <span>Students</span>
+                </a>
+                <a asp-controller="Students" asp-action="Create" class="flex items-center gap-2 px-4 py-3 rounded-lg hover:bg-[#2d3b4f] transition-all">
+                    <i class="fas fa-user-plus"></i>
+                    <span>Add Student</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <div class="flex-1">
+            <!-- Top Navigation -->
+            <header class="bg-white shadow-sm">
+                <div class="flex items-center justify-between px-6 py-4">
+                    <button id="menu-toggle" class="md:hidden text-gray-600 hover:text-gray-900">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                    <div class="flex items-center gap-4">
+                        <span class="text-gray-700">Admin</span>
+                        <img src="https://ui-avatars.com/api/?name=Admin&background=0D8ABC&color=fff" 
+                             alt="Admin" class="w-8 h-8 rounded-full" />
+                    </div>
+                </div>
+            </header>
+
+            <!-- Mobile Sidebar -->
+            <aside id="mobile-menu" class="fixed inset-0 bg-gray-800 bg-opacity-50 z-50 md:hidden hidden">
+                <div class="bg-[#1e293b] text-white w-64 min-h-screen px-4 py-5 transform transition-transform">
+                    <div class="flex justify-between items-center mb-8">
+                        <div class="flex items-center gap-2">
+                            <i class="fas fa-graduation-cap text-2xl"></i>
+                            <span class="text-xl font-bold">SMS</span>
+                        </div>
+                        <button id="close-menu" class="text-white">
+                            <i class="fas fa-times text-xl"></i>
+                        </button>
+                    </div>
+                    <nav class="space-y-2">
+                        <a href="/" class="flex items-center gap-2 px-4 py-3 rounded-lg hover:bg-[#2d3b4f] transition-all">
+                            <i class="fas fa-home"></i>
+                            <span>Dashboard</span>
+                        </a>
+                        <a asp-controller="Students" asp-action="Index" class="flex items-center gap-2 px-4 py-3 rounded-lg hover:bg-[#2d3b4f] transition-all">
+                            <i class="fas fa-users"></i>
+                            <span>Students</span>
+                        </a>
+                        <a asp-controller="Students" asp-action="Create" class="flex items-center gap-2 px-4 py-3 rounded-lg hover:bg-[#2d3b4f] transition-all">
+                            <i class="fas fa-user-plus"></i>
+                            <span>Add Student</span>
+                        </a>
+                    </nav>
+                </div>
+            </aside>
+
+            <!-- Page Content -->
+            <main class="p-6">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
